@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F659107-CD2B-40FC-95C7-B0693E03D89F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GamesShop.My.MyApplication</StartupObject>
+    <RootNamespace>GamesShop</RootNamespace>
+    <AssemblyName>GamesShop</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GamesShop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GamesShop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="form_add_edit_item_Game_info.Designer.vb">
+      <DependentUpon>form_add_edit_item_Game_info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_add_edit_item_Game_info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_add_edit_item_Game_info_author.Designer.vb">
+      <DependentUpon>form_add_edit_item_Game_info_author.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_add_edit_item_Game_info_author.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_add_edit_item_Game_info_price.Designer.vb">
+      <DependentUpon>form_add_edit_item_Game_info_price.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_add_edit_item_Game_info_price.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_add_edit_item_Game_info_stock.Designer.vb">
+      <DependentUpon>form_add_edit_item_Game_info_stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_add_edit_item_Game_info_stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_add_edit_item_Game_info_supplier.Designer.vb">
+      <DependentUpon>form_add_edit_item_Game_info_supplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_add_edit_item_Game_info_supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_add_edit_order_info_customer.Designer.vb">
+      <DependentUpon>form_add_edit_order_info_customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_add_edit_order_info_customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_change_password.Designer.vb">
+      <DependentUpon>form_change_password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_change_password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_login.Designer.vb">
+      <DependentUpon>form_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Main.Designer.vb">
+      <DependentUpon>form_Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_add_edit_order_info.Designer.vb">
+      <DependentUpon>form_add_edit_order_info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_add_edit_order_info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_add_edit_order_info_item.Designer.vb">
+      <DependentUpon>form_add_edit_order_info_item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_add_edit_order_info_item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_transaction_purchase_history.Designer.vb">
+      <DependentUpon>form_transaction_purchase_history.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_transaction_purchase_history.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_transaction_purchase.Designer.vb">
+      <DependentUpon>form_transaction_purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_transaction_purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_View_item.Designer.vb">
+      <DependentUpon>form_View_item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_View_item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_view_order.Designer.vb">
+      <DependentUpon>form_view_order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_view_order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdlParameter.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="form_add_edit_item_Game_info.resx">
+      <DependentUpon>form_add_edit_item_Game_info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_add_edit_item_Game_info_author.resx">
+      <DependentUpon>form_add_edit_item_Game_info_author.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_add_edit_item_Game_info_price.resx">
+      <DependentUpon>form_add_edit_item_Game_info_price.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_add_edit_item_Game_info_stock.resx">
+      <DependentUpon>form_add_edit_item_Game_info_stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_add_edit_item_Game_info_supplier.resx">
+      <DependentUpon>form_add_edit_item_Game_info_supplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_add_edit_order_info_customer.resx">
+      <DependentUpon>form_add_edit_order_info_customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_change_password.resx">
+      <DependentUpon>form_change_password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_login.resx">
+      <DependentUpon>form_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Main.resx">
+      <DependentUpon>form_Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_add_edit_order_info.resx">
+      <DependentUpon>form_add_edit_order_info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_add_edit_order_info_item.resx">
+      <DependentUpon>form_add_edit_order_info_item.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_transaction_purchase_history.resx">
+      <DependentUpon>form_transaction_purchase_history.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_transaction_purchase.resx">
+      <DependentUpon>form_transaction_purchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_View_item.resx">
+      <DependentUpon>form_View_item.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_view_order.resx">
+      <DependentUpon>form_view_order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
